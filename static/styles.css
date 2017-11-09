@@ -1,0 +1,30 @@
+form{
+    border: 1px solid black;
+    display: table;
+    padding: 1em;
+}
+.inputline{
+    display: table-row;
+}
+label{
+    display: table-cell;
+    padding: .5em;
+}
+input{
+    display: table-cell;
+    margin: .5em;
+}
+select{
+    display: table-cell;
+    margin: .5em;
+}
+textarea{
+    width: 95%;
+    margin: .5em;
+}
+.submit{
+    float: right;
+    color: white;
+    background-color: steelblue;
+    box-shadow: 2px 2px 1px black;
+}
